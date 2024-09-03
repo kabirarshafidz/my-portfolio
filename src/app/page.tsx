@@ -19,7 +19,7 @@ export default function Home() {
         <div className="pb-16">
           <div className="text-5xl mb-6">
             <p className="mb-4">
-              Hello 👋🏻 I am <span>ARSHA</span>
+              Hello 👋🏻 I&#39;m <span>ARSHA</span>
             </p>
             <p>A student and a part-time web developer</p>
           </div>

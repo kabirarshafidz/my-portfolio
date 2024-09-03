@@ -53,14 +53,14 @@ export default function About() {
               <div className="p-8 text-right pl-36">
                 <h1 className="page-title">ABOUT ME</h1>
                 <p className="text-lg">
-                  Hi! I'm <span>HAFIDZ ARSHA KABIRA</span>. I'm an incoming
-                  Advanced Computing student at the University of Sydney with a
-                  strong interest in Web Development, Data Science, and Machine
-                  Learning. I'm passionate about creating innovative solutions
-                  that make a real-world impact and am currently focused on
-                  enhancing my skills in full-stack development and exploring
-                  data-driven decision-making. Let's connect and build something
-                  great together!
+                  Hi! I&#39;m <span>HAFIDZ ARSHA KABIRA</span>. I&#39;m an
+                  incoming Advanced Computing student at the University of
+                  Sydney with a strong interest in Web Development, Data
+                  Science, and Machine Learning. I&#39;m passionate about
+                  creating innovative solutions that make a real-world impact
+                  and am currently focused on enhancing my skills in full-stack
+                  development and exploring data-driven decision-making.
+                  Let&#39;s connect and build something great together!
                 </p>
               </div>
             </div>
