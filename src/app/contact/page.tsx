@@ -67,7 +67,7 @@ export default function Home() {
         }`}
       >
         <div className="flex justify-center">
-          <div className="w-full lg:mx-48 mx-24 mt-24 sm:mt-12 lg:mt-24 xl:mt-36 h-min">
+          <div className="w-full lg:mx-48 mx-20 mt-24 sm:mt-12 lg:mt-24 xl:mt-36 h-min">
             {/* Page Content */}
             <div className="border-b-2 flex justify-between">
               <h1 className="page-title xl:!text-5xl lg:text-3xl  !text-xl">
