@@ -61,7 +61,7 @@ export default function Projects() {
           clicked ? `fade-out` : "fade-in"
         }`}
       >
-        <div className="h-2/3 w-3/4 grid lg:grid-cols-2 grid-cols-1 pb-16">
+        <div className="h-2/3 w-3/4 grid lg:grid-cols-2 grid-cols-1 mb-16 pb-16">
           <div
             className={`app-logo ${
               hovered ? "slide-animation" : ""
@@ -76,7 +76,7 @@ export default function Projects() {
           />
           {/* <div style={{ display: hovered ? "none" : "inline" }}></div> */}
           <div className="border lg:rounded-r-3xl lg:rounded-none rounded-3xl z-10">
-            <div className="flex justify-between pt-8 text-3xl font-bold pb-6 border-b-2 mx-8 px-8">
+            <div className="flex justify-between pt-8 text-3xl font-bold pb-6 border-b-2 mx-8 px-4 sm:px-8">
               <h1>PROJECTS</h1>
               <h1>{projects.length}</h1>
             </div>

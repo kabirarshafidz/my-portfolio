@@ -79,7 +79,9 @@ export default function Home() {
               <div className="flex-none sm:flex gap-3 text-left">
                 <p>MAIL:</p>
                 <a href="mailto:hafidzarsha@gmail.com">
-                  <p className="border-animation">hafidzarsha@gmail.com</p>
+                  <p className="border-animation w-min">
+                    hafidzarsha@gmail.com
+                  </p>
                 </a>
               </div>
               <div className="flex gap-3">
