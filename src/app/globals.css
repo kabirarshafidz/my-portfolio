@@ -93,7 +93,7 @@ span {
   left: 0;
   width: 0; /* Start with a width of 0 */
   height: 2px; /* Height of the border */
-  background-color: white; /* Color of the border */
+  background-color: var(--color); /* Color of the border */
   transition: width 0.3s linear; /* Smooth transition for the width change */
 }
 
@@ -178,4 +178,18 @@ nav {
 
 .fade-out {
   animation: fade-out 0.75s;
+}
+
+svg {
+  fill: var(--color);
+}
+
+.border,
+.border-b-2 {
+  border-color: var(--color);
+}
+
+.button-shadow:hover {
+  --tw-shadow-color: var(--primary);
+  --tw-shadow: var(--primary);
 }
