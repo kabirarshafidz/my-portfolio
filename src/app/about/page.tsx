@@ -14,11 +14,11 @@ export default function About() {
     <div className="flex flex-col h-screen">
       <Header onHomeClicked={handleClick} />
       <main
-        className={`grow flex flex-col items-center justify-center text-center ${
+        className={`grow flex flex-col items-center justify-center text-center mt-12 ${
           clicked ? `fade-out` : "fade-in"
         }`}
       >
-        <div className="grid grid-cols-2 pb-16">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 sm:grid-rows-2 md:grid-rows-1 pb-16 gap-36 sm:gap-12">
           {/* <div className="absolute top-1/4 right-1/2 left-0 h-auto mr-8">
             <div className="about-container rounded-r-3xl">
               <div className="p-8 text-right pl-36">
@@ -48,11 +48,11 @@ export default function About() {
               className="absolute bottom-0 h-auto w-3/4"
             />
           </div> */}
-          <div className=" top-1/4 right-1/2 left-0 mr-8">
+          <div className="mr-8">
             <div className="about-container rounded-r-3xl">
-              <div className="p-8 text-right pl-36">
+              <div className="p-8 text-right pl-12 lg:pl-36">
                 <h1 className="page-title">ABOUT ME</h1>
-                <p className="text-lg">
+                <p className="text-sm md:text-md lg:text-lg">
                   Hi! I&#39;m <span>HAFIDZ ARSHA KABIRA</span>. I&#39;m an
                   incoming Advanced Computing student at the University of
                   Sydney with a strong interest in Web Development, Data
@@ -72,13 +72,13 @@ export default function About() {
               </a>
             </div>
           </div>
-          <div className="grid grid-rows-2">
-            <div></div>
-            <div className="about-container relative rounded-l-3xl ml-8">
+          <div className="grid grid-rows-2  ml-8">
+            <div className="hidden sm:block md:hidden lg:block"></div>
+            <div className="hidden sm:block about-container relative rounded-l-3xl lg:row-span-1 md:row-span-2">
               <img
                 src="./myprofile.svg"
                 alt=""
-                className="fading-image absolute w-3/4 left-0 bottom-0"
+                className="fading-image absolute w-full sm:w-2/3 md:w-full xl:w-3/4 left-0 bottom-0"
               />
             </div>
           </div>

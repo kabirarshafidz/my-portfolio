@@ -16,7 +16,7 @@ export default function List(props: Props) {
   }
 
   return (
-    <a href={props.link}>
+    <a href={props.link} target="_blank" rel="noopener noreferrer">
       <li
         id={props.id.toString()}
         className="text-2xl border-b-2 mx-8 flex justify-between mt-6 pb-6"

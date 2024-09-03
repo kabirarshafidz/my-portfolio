@@ -16,15 +16,15 @@ export default function Home() {
           clicked ? `fade-out` : "fade-in"
         }`}
       >
-        <div className="pb-16">
-          <div className="text-5xl mb-6">
+        <div className="pb-16 mx-4 md:mx-0">
+          <div className="text-2xl md:text-5xl mb-6">
             <p className="mb-4">
               Hello 👋🏻 I&#39;m <span>ARSHA</span>
             </p>
             <p>A student and a part-time web developer</p>
           </div>
           <div className="flex gap-4 justify-center">
-            <a href="/projects" className="border-animation pb-1">
+            <a href="/projects" className="border-animation pb-1 text-md">
               <div className="flex">
                 <p className="mr-2">See my projects</p>
                 <svg
